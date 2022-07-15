@@ -1,6 +1,17 @@
 <h2>Products</h2>
+<div *ngFor="let product of products">
+  <h3>
+    <a [title]="product.name + ' details'">
+      {{ product.name }}
+    </a>
 
+    <p *ngIf="product.description">
+      Description from the phone: <b>{{ product.description }}</b>
+    </p>
 
+    <button type="button" (click)="share()">Share</button>
+  </h3>
+</div>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
