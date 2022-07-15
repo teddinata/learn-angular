@@ -1,3 +1,3 @@
-# angular-gbcwy6
+# learn-angular
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-gbcwy6)
